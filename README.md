@@ -16,9 +16,24 @@ This project is a game where the player controls a robot named Stevie. Stevie ca
 
 1. **Clone or download the project**.
 2. **Open the project in your Python IDE** (e.g., PyCharm or any other editor).
-3. **To run the game**, open `main.py` and simply run the file:
+3. **Inside the file **`main.py`**, scroll to the bottom and find the task runner:**
+
+   ```python
+   # run_task(task1, check_task1)
+   # run_task(task2, check_task2)
+   # run_task(task3, check_task3)
+   
+4. **To run a task, remove "#" from the line of the task you want to execute.**
+   Example — running Task 1:
    ```bash
-   python main.py
+   run_task(task1, check_task1)
+   # run_task(task2, check_task2)
+   # run_task(task3, check_task3)
+5. **Run the program:**
+      ```bash
+      python main.py
+6. **After the task finishes, add # back to disable it and uncomment another task if needed.**
+
 
 ## Tasks
 
