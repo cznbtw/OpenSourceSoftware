@@ -327,7 +327,7 @@ def run_task(task_function, check_function):
 def main():
     # run_task(task1, check_task1)
     # run_task(task2, check_task2)
-     run_task(task3, check_task3)
+    # run_task(task3, check_task3)
 
 if __name__ == "__main__":
     main()
